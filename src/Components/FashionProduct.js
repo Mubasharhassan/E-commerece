@@ -9,6 +9,7 @@ const FashionProduct = () => {
             <div className="bg-info flex-1">
               <div className="outerwear">
                 <h2 className="livefor ">Live For </h2>
+                <h1>e</h1>
                 {/* <h1 className="fashion">Fashion</h1> */}
                 {/* <p className="saveupto">Save Up To 50%</p> */}
                 {/* <button className="shopbtn">Shop Now</button> */}
