@@ -22,12 +22,12 @@ code {
   /* margin-left: 5rem; */
 }
 .header-left {
-  min-width: 280px;
-  max-width: 400px;
+  /* min-width: 280px; */
+  /* max-width: 400px; */
 }
 .header-right {
-  min-width: 280px;
-  max-width: 400px;
+  /* min-width: 280px; */
+  /* max-width: 400px; */
   justify-content: center;
   text-align: center;
   align-items: center;
@@ -41,7 +41,7 @@ code {
 .listitem {
   text-decoration: none;
   list-style: none;
-  margin-left: 1rem;
+ 
   /* margin-right: 3rem; */
   justify-content: space-between;
   align-items: center;
@@ -114,13 +114,13 @@ code {
   background-image: url("/public/lady3.jpeg");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 100%;
+  /* background-size: 100%; */
   /* background-color: orange; */
   /* padding-left: 0 !important ; */
   width: 100% !important;
   object-fit: cover;
-  height: 100vh;
-  align-items: center;
+  /* height: 100vh; */
+  /* align-items: center; */
 }
 * {
   padding: 0;
@@ -142,19 +142,62 @@ code {
   flex-direction: column;
 }
 .outerwear {
-  background-image: url("/public/lady.jpeg");
-}
-.summerwear {
-  background-image: url("/public/lady2.webp");
+  background-image: url("/public/fashion3.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  width: 100% !important;
+  object-fit: cover;
 }
 .arrivals {
-  background-image: url("/public/lady.jpeg");
+  background-image: url("/public/fashion4.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  width: 100% !important;
+  object-fit: cover;
 }
 .hot {
-  background-image: url("/public/lady2.webp");
-}
-.offer {
-  background-image: url("/public/lady4.webp");
+  background-image: url("/public/fashion5.jpeg");
   background-repeat: no-repeat;
-  background-size: auto;
+  background-position: center;
+  background-size: 100%;
+  width: 100% !important;
+  object-fit: cover;
 }
+* {
+  box-sizing: border-box;
+}
+.customclass {
+  flex-wrap: wrap;
+}
+.children-div {
+  padding: 2rem 2rem;
+  background-color: cadetblue;
+}
+
+@media screen and (max-width: 480px) {
+  .livefor {
+  }
+}
+header {
+  height: 7rem;
+  background-color: #fff;
+  border-bottom: 1px solid #f4f2f2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.4rem;
+}
+@media only screen and (max-width: 31.25em) {
+  .header {
+    flex-wrap: wrap;
+    height: 12rem;
+    align-content: space-around;
+  }
+}
+.logo {
+  height: 3.25rem;
+  margin-left: 2rem;
+}
+

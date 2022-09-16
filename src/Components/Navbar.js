@@ -1,63 +1,45 @@
 import React from "react";
-import Stack from "@mui/material/Stack";
-import Badge from "@mui/material/Badge";
-import { IoMdMail } from "react-icons/io";
-import { BiSearch } from "react-icons/bi";
-import { MdMenu } from "react-icons/md";
-import { HiShoppingBag } from "react-icons/hi";
 
 const Navbar = () => {
   return (
     <>
-      <div className="container-fluid navBar-main">
-        <div className=" header-div flex-wrap-wrap d-flex align-items-center container ">
-          <div className=" bg-inf d-flex">
-            <div>
-              <img src="/logo.jpeg" className="img-logo" />
+      <div className="container-fluid">
+        <header class="header">
+          <img src="/logo.jpeg" alt="trilo logo" class="logo" />
+          <form action="#" class="search">
+            <ul className="d-flex listitem">
+              <li>Home</li>
+              <li>Features</li>
+              <li>Blog</li>
+              <li>Shop</li>
+              <li>Pages</li>
+            </ul>
+          </form>
+          <nav className="user-nav">
+            <div className="user-nav__icon-box">
+              <svg className="user-nav__icon">
+                <img src="" />
+              </svg>
+              <span className="user-nav__notification">7</span>
             </div>
-            <nav className="d-flex ml-5 justify-content-between align-items-center flex-wrap-wrap">
-              <ul className="d-flex ">
-                <li className="listitem">
-                  <button className="header__button">Home ⌄</button>
-                </li>
-                <li className="listitem">
-                  <button className="header__button">Shop ⌄</button>
-                </li>
-                <li className="listitem">
-                  <button className="header__button">Feature ⌄</button>
-                </li>
-                <li className="listitem">
-                  <button className="header__button">Blog ⌄</button>
-                </li>
-                <li className="listitem">
-                  <button className="header__button">Pages ⌄</button>
-                </li>
-              </ul>
-            </nav>
-          </div>
-          <div className="nav-icon">
-            <Stack
-              className=""
-              spacing={4}
-              direction="row"
-              sx={{ color: "action.active" }}
-            >
-              <Badge color="secondary" badgeContent={4} className="badge-set">
-                <IoMdMail className="badge-icon" />
-              </Badge>
-              <Badge color="secondary" badgeContent={3} className="badge-set">
-                <HiShoppingBag className="badge-icon" />
-              </Badge>
-              <Badge className="badge-set">
-                <BiSearch className="badge-icon" />
-              </Badge>
-              <Badge className="badge-set">
-                <MdMenu className="badge-icon" />
-              </Badge>
-            </Stack>
-          </div>
-        </div>
+            <div className="user-nav__icon-box">
+              <svg className="user-nav__icon">
+                <img src="/CSS/img/icons8-chat-25.png" />
+              </svg>
+              <span className="user-nav__notification">13</span>
+            </div>
+            <div className="user-nav__user">
+              <img
+                src="/CSS/img/Screenshot_20220422-210407_Gallery.jpg"
+                alt=""
+                className="user-nav__user-photo"
+              />
+              <span className="user-nav__user-name">Mubi</span>
+            </div>
+          </nav>
+        </header>
       </div>
+      ;
     </>
   );
 };
