@@ -185,7 +185,7 @@ code {
 * {
   box-sizing: border-box;
 }
-.customclass {
+.main-cards-detail {
   flex-wrap: wrap;
 }
 .children-div {
