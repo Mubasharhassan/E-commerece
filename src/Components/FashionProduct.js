@@ -5,7 +5,7 @@ const FashionProduct = () => {
   return (
     <>
       <div className="container-fluid">
-        <div class="d-flex align-items-center flex-wrap-wrap">
+        <div class="d-flex align-items-center customclass">
           <div className="children-div">
             <div className="cards-body">
               <Card body className="text-center outerwear">
