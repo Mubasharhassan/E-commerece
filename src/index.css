@@ -217,3 +217,8 @@ header {
   height: 3.25rem;
   margin-left: 2rem;
 }
+.cards-body {
+  min-width: 280px;
+  width: auto;
+  height: 10rem;
+}
