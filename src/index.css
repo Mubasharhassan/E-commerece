@@ -182,6 +182,97 @@ code {
   width: 100% !important;
   object-fit: cover;
 }
+.back-img-card1 {
+  background-image: url("/public/fashion9.webp");
+  background-repeat: no-repeat;
+  /* background-position: center; */
+  background-size: 100%;
+  width: 100% !important;
+  object-fit: cover;
+  height: 100%;
+}
+.back-img-card2 {
+  background-image: url("/public/fashion10.jpeg");
+  background-repeat: no-repeat;
+  /* background-position: center; */
+  background-size: 100%;
+  width: 100% !important;
+  object-fit: cover;
+  height: 100%;
+}
+.back-img-card3 {
+  background-image: url("/public/fashion11.webp");
+  background-repeat: no-repeat;
+  /* background-position: center; */
+  background-size: 100%;
+  width: 100% !important;
+  object-fit: cover;
+  height: 100%;
+}
+.back-img-card4 {
+  background-image: url("/public/fashion12.jpeg");
+  background-repeat: no-repeat;
+  /* background-position: center; */
+  background-size: 100%;
+  width: 100% !important;
+  object-fit: cover;
+  height: 100%;
+}
+.back-img-card5 {
+  background-image: url("/public/fashion13.webp");
+  background-repeat: no-repeat;
+  /* background-position: center; */
+  background-size: 100%;
+  width: 100% !important;
+  object-fit: cover;
+  height: 100%;
+}
+.back-img-card6 {
+  background-image: url("/public/fashion14.webp");
+  background-repeat: no-repeat;
+  /* background-position: center; */
+  background-size: 100%;
+  width: 100% !important;
+  object-fit: cover;
+  height: 100%;
+}
+.back-img-card7 {
+  background-image: url("/public/fashion16.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  width: 100% !important;
+  object-fit: cover;
+  height: 100%;
+}
+.back-img-card8 {
+  background-image: url("/public/fashion1.webp");
+  background-repeat: no-repeat;
+  /* background-position: center; */
+  background-size: 100%;
+  width: 100% !important;
+  object-fit: cover;
+  height: 100%;
+}
+.tshirt-colloction {
+  background-image: url("/public/menfashion2.jpeg");
+  background-repeat: no-repeat;
+  /* background-position: center; */
+  background-size: 100%;
+  width: 100% !important;
+  object-fit: cover;
+  height: 70vh;
+}
+.design-days-men{
+  border: 1px solid pink;
+  float: center;
+}
+.hot-ptoduct-item {
+  text-align: center;
+}
+.dress-name {
+  text-align: center;
+}
 * {
   box-sizing: border-box;
 }
@@ -190,7 +281,9 @@ code {
 }
 .children-div {
   padding: 2rem 2rem;
-  background-color: cadetblue;
+  min-width: 280px;
+  width: auto;
+  /* background-color: cadetblue; */
 }
 
 @media screen and (max-width: 480px) {
@@ -218,7 +311,22 @@ header {
   margin-left: 2rem;
 }
 .cards-body {
-  min-width: 280px;
+  /* min-width: 280px; */
+  margin-top: 1rem;
+  margin-bottom: 1rem;
   width: auto;
+  /* height: 10rem; */
+  /* flex-wrap: wrap; */
+}
+.list-hot-product {
+  list-style: none;
+}
+.hot-product-card {
+  width: 10rem;
   height: 10rem;
+  /* min-width: 280px; */
+  max-width: 1200px;
+  margin: 3rem;
+  padding: 0rem;
+  /* gap: 6rem; */
 }
