@@ -5,7 +5,7 @@ const FashionProduct = () => {
   return (
     <>
       <div className="container-fluid">
-        <div class="d-flex align-items-center customclass">
+        <div class="d-flex align-items-center outerwaer">
           <div className="children-div">
             <Card body className="text-center outerwear">
               <CardTitle tag="h5">Special Title Treatment</CardTitle>
@@ -15,7 +15,7 @@ const FashionProduct = () => {
               </CardText>
               <Button color="primary">Go somewhere</Button>
             </Card>
-            <Card body className="text-end my-2 arrivals">
+            <Card body className="text-end my-2 summer-hot">
               <CardTitle tag="h5">Special Title Treatment</CardTitle>
               <CardText>
                 With supporting text below as a natural lead-in to additional
@@ -25,7 +25,7 @@ const FashionProduct = () => {
             </Card>
           </div>
           <div className="children-div">
-            <Card body className="text-end my-2 hot">
+            <Card body className="text-end my-2 selected-offer">
               <CardTitle tag="h5">Special Title Treatment</CardTitle>
               <CardText>
                 With supporting text below as a natural lead-in to additional
@@ -43,7 +43,7 @@ const FashionProduct = () => {
               </CardText>
               <Button color="primary">Go somewhere</Button>
             </Card>
-            <Card body className="text-end my-2 outerwear">
+            <Card body className="text-end my-2 hot-offer">
               <CardTitle tag="h5">Special Title Treatment</CardTitle>
               <CardText>
                 With supporting text below as a natural lead-in to additional

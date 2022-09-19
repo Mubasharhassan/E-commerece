@@ -1,4 +1,8 @@
 import React from "react";
+import { AiTwotoneHeart } from "react-icons/ai";
+import { FaShopify } from "react-icons/fa";
+import { BiSearchAlt2 } from "react-icons/bi";
+import { GiHamburgerMenu } from "react-icons/gi";
 
 const Navbar = () => {
   return (
@@ -8,33 +12,31 @@ const Navbar = () => {
           <img src="/logo.jpeg" alt="trilo logo" class="logo" />
           <form action="#" class="search">
             <ul className="d-flex listitem">
-              <li>Home</li>
-              <li>Features</li>
-              <li>Blog</li>
-              <li>Shop</li>
-              <li>Pages</li>
+              <li className="m-5">Home</li>
+              <li className="m-5">Features</li>
+              <li className="m-5">Blog</li>
+              <li className="m-5">Shop</li>
+              <li className="m-5">Pages</li>
             </ul>
           </form>
           <nav className="user-nav">
             <div className="user-nav__icon-box">
               <svg className="user-nav__icon">
-                <img src="" />
+                <AiTwotoneHeart />
               </svg>
               <span className="user-nav__notification">7</span>
             </div>
             <div className="user-nav__icon-box">
               <svg className="user-nav__icon">
-                <img src="/CSS/img/icons8-chat-25.png" />
+                <FaShopify />
               </svg>
               <span className="user-nav__notification">13</span>
             </div>
-            <div className="user-nav__user">
-              <img
-                src="/CSS/img/Screenshot_20220422-210407_Gallery.jpg"
-                alt=""
-                className="user-nav__user-photo"
-              />
-              <span className="user-nav__user-name">Mubi</span>
+            <div className="user-nav__icon-box">
+              <BiSearchAlt2 />
+            </div>
+            <div className="user-nav__icon-box">
+              <GiHamburgerMenu />
             </div>
           </nav>
         </header>

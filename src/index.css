@@ -41,7 +41,7 @@ code {
 .listitem {
   text-decoration: none;
   list-style: none;
- 
+
   /* margin-right: 3rem; */
   justify-content: space-between;
   align-items: center;
@@ -100,6 +100,7 @@ code {
   font-size: 1rem;
   width: 10vw;
   height: 5vh;
+  margin-bottom: 1rem;
   /* margin-left: 20rem; */
 }
 .img-div {
@@ -114,12 +115,12 @@ code {
   background-image: url("/public/lady3.jpeg");
   background-repeat: no-repeat;
   background-position: center;
-  /* background-size: 100%; */
+  background-size: 100%;
   /* background-color: orange; */
   /* padding-left: 0 !important ; */
   width: 100% !important;
   object-fit: cover;
-  /* height: 100vh; */
+  height: 90vh;
   /* align-items: center; */
 }
 * {
@@ -157,8 +158,24 @@ code {
   width: 100% !important;
   object-fit: cover;
 }
-.hot {
+.selected-offer {
   background-image: url("/public/fashion5.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  width: 100% !important;
+  object-fit: cover;
+}
+.summer-hot {
+  background-image: url("/public/fashion6.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  width: 100% !important;
+  object-fit: cover;
+}
+.hot-offer {
+  background-image: url("/public/fashion7.jpeg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
@@ -200,4 +217,3 @@ header {
   height: 3.25rem;
   margin-left: 2rem;
 }
-
