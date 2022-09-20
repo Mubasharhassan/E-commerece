@@ -11,9 +11,11 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
 .readmore {
   color: rgb(223, 135, 53);
 }
+
 .header-div {
   display: flex;
   flex-wrap: wrap;
@@ -21,10 +23,12 @@ code {
   justify-content: space-between;
   /* margin-left: 5rem; */
 }
+
 .header-left {
   /* min-width: 280px; */
   /* max-width: 400px; */
 }
+
 .header-right {
   /* min-width: 280px; */
   /* max-width: 400px; */
@@ -32,12 +36,14 @@ code {
   text-align: center;
   align-items: center;
 }
+
 .header__button {
   margin: 1rem;
   font-weight: 500;
   border: none;
   background-color: transparent;
 }
+
 .listitem {
   text-decoration: none;
   list-style: none;
@@ -46,30 +52,37 @@ code {
   justify-content: space-between;
   align-items: center;
 }
+
 .img-logo {
   width: 4rem;
   object-fit: cover;
   margin-top: 0.5rem;
 }
+
 .nav-icon {
   margin-right: 5rem;
   justify-content: space-between;
 }
+
 .badge-icon {
   font-size: 2rem;
 }
+
 .badge-set {
   right: -50;
   top: 13;
 }
+
 .hero-main {
   background-color: orange;
   justify-content: space-around;
 }
+
 .hero-main-img {
   width: auto;
   padding: 2rem;
 }
+
 .livefor {
   /* text-align: center; */
   font-weight: 200;
@@ -77,6 +90,7 @@ code {
   letter-spacing: 4px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
+
 .fashion {
   color: #fff;
   font-weight: 800;
@@ -84,12 +98,14 @@ code {
   letter-spacing: 2px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
+
 .saveupto {
   font-size: 2rem;
   color: aliceblue;
   font-weight: 400;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
+
 .shopbtn {
   border: none;
   background-color: black;
@@ -103,14 +119,17 @@ code {
   margin-bottom: 1rem;
   /* margin-left: 20rem; */
 }
+
 .img-div {
   width: 50%;
 }
+
 .detail {
   padding-left: 6rem;
   padding-top: 3rem;
   /* margin-top: 1rem; */
 }
+
 .back-img {
   background-image: url("/public/lady3.jpeg");
   background-repeat: no-repeat;
@@ -123,25 +142,32 @@ code {
   height: 90vh;
   /* align-items: center; */
 }
+
 * {
   padding: 0;
   margin: 0;
 }
+
 .header-main {
   background-color: rgb(249, 204, 183);
 }
+
 .navBar-main {
   background-color: rgb(241, 235, 232);
 }
+
 .FashionProduct {
   display: flex;
 }
+
 .main-div-info {
   flex: 1;
 }
+
 .info-div {
   flex-direction: column;
 }
+
 .outerwear {
   background-image: url("/public/fashion3.jpeg");
   background-repeat: no-repeat;
@@ -150,6 +176,7 @@ code {
   width: 100% !important;
   object-fit: cover;
 }
+
 .arrivals {
   background-image: url("/public/fashion4.jpeg");
   background-repeat: no-repeat;
@@ -158,6 +185,7 @@ code {
   width: 100% !important;
   object-fit: cover;
 }
+
 .selected-offer {
   background-image: url("/public/fashion5.jpeg");
   background-repeat: no-repeat;
@@ -166,6 +194,7 @@ code {
   width: 100% !important;
   object-fit: cover;
 }
+
 .summer-hot {
   background-image: url("/public/fashion6.jpeg");
   background-repeat: no-repeat;
@@ -174,6 +203,7 @@ code {
   width: 100% !important;
   object-fit: cover;
 }
+
 .hot-offer {
   background-image: url("/public/fashion7.jpeg");
   background-repeat: no-repeat;
@@ -182,6 +212,7 @@ code {
   width: 100% !important;
   object-fit: cover;
 }
+
 .back-img-card1 {
   background-image: url("/public/fashion9.webp");
   background-repeat: no-repeat;
@@ -191,6 +222,7 @@ code {
   object-fit: cover;
   height: 100%;
 }
+
 .back-img-card2 {
   background-image: url("/public/fashion10.jpeg");
   background-repeat: no-repeat;
@@ -200,6 +232,7 @@ code {
   object-fit: cover;
   height: 100%;
 }
+
 .back-img-card3 {
   background-image: url("/public/fashion11.webp");
   background-repeat: no-repeat;
@@ -209,6 +242,7 @@ code {
   object-fit: cover;
   height: 100%;
 }
+
 .back-img-card4 {
   background-image: url("/public/fashion12.jpeg");
   background-repeat: no-repeat;
@@ -218,6 +252,7 @@ code {
   object-fit: cover;
   height: 100%;
 }
+
 .back-img-card5 {
   background-image: url("/public/fashion13.webp");
   background-repeat: no-repeat;
@@ -227,6 +262,7 @@ code {
   object-fit: cover;
   height: 100%;
 }
+
 .back-img-card6 {
   background-image: url("/public/fashion14.webp");
   background-repeat: no-repeat;
@@ -236,6 +272,7 @@ code {
   object-fit: cover;
   height: 100%;
 }
+
 .back-img-card7 {
   background-image: url("/public/fashion16.jpeg");
   background-repeat: no-repeat;
@@ -245,6 +282,7 @@ code {
   object-fit: cover;
   height: 100%;
 }
+
 .back-img-card8 {
   background-image: url("/public/fashion1.webp");
   background-repeat: no-repeat;
@@ -254,6 +292,7 @@ code {
   object-fit: cover;
   height: 100%;
 }
+
 .tshirt-colloction {
   background-image: url("/public/menfashion2.jpeg");
   background-repeat: no-repeat;
@@ -261,24 +300,30 @@ code {
   background-size: 100%;
   width: 100% !important;
   object-fit: cover;
-  height: 70vh;
+  height: 80vh;
 }
-.design-days-men{
+
+.design-days-men {
   border: 1px solid pink;
   float: center;
 }
+
 .hot-ptoduct-item {
   text-align: center;
 }
+
 .dress-name {
   text-align: center;
 }
+
 * {
   box-sizing: border-box;
 }
+
 .main-cards-detail {
   flex-wrap: wrap;
 }
+
 .children-div {
   padding: 2rem 2rem;
   min-width: 280px;
@@ -287,9 +332,9 @@ code {
 }
 
 @media screen and (max-width: 480px) {
-  .livefor {
-  }
+  .livefor {}
 }
+
 header {
   height: 7rem;
   background-color: #fff;
@@ -299,6 +344,7 @@ header {
   align-items: center;
   font-size: 1.4rem;
 }
+
 @media only screen and (max-width: 31.25em) {
   .header {
     flex-wrap: wrap;
@@ -306,10 +352,12 @@ header {
     align-content: space-around;
   }
 }
+
 .logo {
   height: 3.25rem;
   margin-left: 2rem;
 }
+
 .cards-body {
   /* min-width: 280px; */
   margin-top: 1rem;
@@ -318,9 +366,11 @@ header {
   /* height: 10rem; */
   /* flex-wrap: wrap; */
 }
+
 .list-hot-product {
   list-style: none;
 }
+
 .hot-product-card {
   width: 10rem;
   height: 10rem;
