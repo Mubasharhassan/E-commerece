@@ -255,17 +255,39 @@ code {
   height: 100%;
 }
 .tshirt-colloction {
-  background-image: url("/public/menfashion2.jpeg");
+  background-image: url("/public/menfashion13.jpeg");
+  /* background-color: rgb(219, 224, 230); */
   background-repeat: no-repeat;
-  /* background-position: center; */
+  background-position: center;
   background-size: 100%;
   width: 100% !important;
   object-fit: cover;
-  height: 70vh;
+  height: 80vh;
 }
-.design-days-men{
-  border: 1px solid pink;
-  float: center;
+.men-fashion-img {
+  border: none;
+  width: 100%;
+}
+.deta-detail-heading {
+  font-weight: 300;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+.deta-detail-pera {
+  font-weight: 400;
+  justify-content: space-around;
+  /* text-align: center; */
+  margin: 0;
+  padding: 0;
+}
+.design-days-men {
+  border: 2px solid pink;
+  text-align: center;
+  width: 3.3rem;
+  height: 3rem;
+  /* margin-left: 4rem; */
+  background-color: transparent;
 }
 .hot-ptoduct-item {
   text-align: center;
