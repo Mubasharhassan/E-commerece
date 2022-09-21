@@ -13,11 +13,13 @@ import {
 const TodayDeal = () => {
   return (
     <>
-      <div className="container">
-        <div className="">
+      <div className="container-fluid main-cards-detail d-flex justify-content-between align-items-center all-div-margn">
+        <div className="container justify-content-center align-items-center main-cards-detail main-all-div all-div-margn">
           <div className="hot-ptoduct-item">
-            <h1 className="m-0 p-0">Hot Products</h1>
-            <p>See What Everyone Is Shopping from Andshop E-Commerce</p>
+            <h1 className="m-0 p-0">Today's Deal</h1>
+            <p className="m-0 p-0">
+              See What Everyone Is Shopping from Andshop E-Commerce Today
+            </p>
           </div>
           <div className="d-flex main-cards-detail">
             <div className="hot-product-card ">
@@ -33,9 +35,9 @@ const TodayDeal = () => {
               </Card>
               <div className="dress-name">
                 <CardBody>
-                  <CardTitle tag="h5">Green Dress For Women</CardTitle>
+                  <CardTitle tag="h5">Tulip Dress</CardTitle>
                   <CardSubtitle className="mb-2 text-muted" tag="h6">
-                    $38.00
+                    $41.00
                   </CardSubtitle>
                 </CardBody>
               </div>
@@ -54,9 +56,9 @@ const TodayDeal = () => {
               </Card>
               <div className="dress-name">
                 <CardBody>
-                  <CardTitle tag="h5">Green Dress For Women</CardTitle>
+                  <CardTitle tag="h5">Skater Dress</CardTitle>
                   <CardSubtitle className="mb-2 text-muted" tag="h6">
-                    $38.00
+                    $21.00
                   </CardSubtitle>
                 </CardBody>
               </div>
@@ -74,9 +76,9 @@ const TodayDeal = () => {
               </Card>
               <div className="dress-name">
                 <CardBody>
-                  <CardTitle tag="h5">Green Dress For Women</CardTitle>
+                  <CardTitle tag="h5">Boho Tops for Girls</CardTitle>
                   <CardSubtitle className="mb-2 text-muted" tag="h6">
-                    $38.00
+                    $46.00
                   </CardSubtitle>
                 </CardBody>
               </div>
@@ -94,9 +96,9 @@ const TodayDeal = () => {
               </Card>
               <div className="dress-name">
                 <CardBody>
-                  <CardTitle tag="h5">Green Dress For Women</CardTitle>
+                  <CardTitle tag="h5">Skater Dress</CardTitle>
                   <CardSubtitle className="mb-2 text-muted" tag="h6">
-                    $38.00
+                    $74.00
                   </CardSubtitle>
                 </CardBody>
               </div>

@@ -13,17 +13,19 @@ import {
 const EightCards = () => {
   return (
     <>
-      <div className="container">
+      <div className="container all-div-margn justify-content-center align-items-center main-cards-detail">
         <div className="">
           <div className="hot-ptoduct-item">
             <h1>Hot Products</h1>
             <p>See What Everyone Is Shopping from Andshop E-Commerce</p>
-            <ul className="d-flex list-hot-product listitem">
-              <li>NEW ARRIVAL</li>
-              <li>TRENDING</li>
-              <li>BEST SELLERS</li>
-              <li>FEATURED</li>
-              <li>ON SALL</li>
+            <ul className="d-flex list-hot-product justify-content-center align-items-center m-0">
+              <li className="listitem2">
+                <u>NEW ARRIVAL</u>
+              </li>
+              <li className="listitem1">TRENDING</li>
+              <li className="listitem1">BEST SELLERS</li>
+              <li className="listitem1">FEATURED</li>
+              <li className="listitem1">ON SALL</li>
             </ul>
           </div>
           <div className="d-flex main-cards-detail">
@@ -61,9 +63,9 @@ const EightCards = () => {
               </Card>
               <div className="dress-name">
                 <CardBody>
-                  <CardTitle tag="h5">Green Dress For Women</CardTitle>
+                  <CardTitle tag="h5">T-shirt For men</CardTitle>
                   <CardSubtitle className="mb-2 text-muted" tag="h6">
-                    $38.00
+                    $72.00
                   </CardSubtitle>
                 </CardBody>
               </div>
@@ -81,9 +83,9 @@ const EightCards = () => {
               </Card>
               <div className="dress-name">
                 <CardBody>
-                  <CardTitle tag="h5">Green Dress For Women</CardTitle>
+                  <CardTitle tag="h5">V-Neck Dress</CardTitle>
                   <CardSubtitle className="mb-2 text-muted" tag="h6">
-                    $38.00
+                    $34.00
                   </CardSubtitle>
                 </CardBody>
               </div>
@@ -101,9 +103,9 @@ const EightCards = () => {
               </Card>
               <div className="dress-name">
                 <CardBody>
-                  <CardTitle tag="h5">Green Dress For Women</CardTitle>
+                  <CardTitle tag="h5">Maxi Dress</CardTitle>
                   <CardSubtitle className="mb-2 text-muted" tag="h6">
-                    $38.00
+                    $43.00
                   </CardSubtitle>
                 </CardBody>
               </div>
@@ -121,9 +123,9 @@ const EightCards = () => {
               </Card>
               <div className="dress-name">
                 <CardBody>
-                  <CardTitle tag="h5">Green Dress For Women</CardTitle>
+                  <CardTitle tag="h5">Fit-Flare Dress</CardTitle>
                   <CardSubtitle className="mb-2 text-muted" tag="h6">
-                    $38.00
+                    $52.00
                   </CardSubtitle>
                 </CardBody>
               </div>
@@ -141,9 +143,9 @@ const EightCards = () => {
               </Card>
               <div className="dress-name">
                 <CardBody>
-                  <CardTitle tag="h5">Green Dress For Women</CardTitle>
+                  <CardTitle tag="h5">Midi Dress</CardTitle>
                   <CardSubtitle className="mb-2 text-muted" tag="h6">
-                    $38.00
+                    $15.00
                   </CardSubtitle>
                 </CardBody>
               </div>
@@ -161,9 +163,9 @@ const EightCards = () => {
               </Card>
               <div className="dress-name">
                 <CardBody>
-                  <CardTitle tag="h5">Green Dress For Women</CardTitle>
+                  <CardTitle tag="h5">Tulip Dress</CardTitle>
                   <CardSubtitle className="mb-2 text-muted" tag="h6">
-                    $38.00
+                    $41.00
                   </CardSubtitle>
                 </CardBody>
               </div>
@@ -181,9 +183,9 @@ const EightCards = () => {
               </Card>
               <div className="dress-name">
                 <CardBody>
-                  <CardTitle tag="h5">Green Dress For Women</CardTitle>
+                  <CardTitle tag="h5">Skater Dress</CardTitle>
                   <CardSubtitle className="mb-2 text-muted" tag="h6">
-                    $38.00
+                    $21.00
                   </CardSubtitle>
                 </CardBody>
               </div>

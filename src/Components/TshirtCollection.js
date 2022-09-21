@@ -4,7 +4,7 @@ const TshirtCollection = () => {
   return (
     <>
       <div className="container-fluid   mt-5">
-        <main className="d-flex justify-content-between align-items-center tshirt-colloction">
+        <main className="d-flex justify-content-between align-items-center tshirt-colloction main-cards-detail all-div-margn">
           <section className="">
             <div className="justify-content-between align-items-center parent-div-para ">
               <div className="design-days-men ">

@@ -24,8 +24,6 @@ code {
   /* margin-left: 5rem; */
 }
 
-
-
 .header-right {
   /* min-width: 280px; */
   /* max-width: 400px; */
@@ -49,7 +47,57 @@ code {
   justify-content: space-between;
   align-items: center;
 }
+.new-fashion{
+  /* background-color: #32333590; */
+}
+.new-fashion-img{
+  width: 50%;
+}
+.fashion-detail{
+  text-align: center;
+}
+.new-fashion-img1{
+  width: 100%;
+}
+.fashion-detail-btn{
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.new-fashion-div1{
+  /* clip-path: polygon(100% 0, 90% 100%, 0 100%, 0 0); */
 
+  width: 70%;
+  
+}
+.fashion-detail{
+  width: 100%;
+  color: white;
+}
+.fashion-detail1{
+  width: 100%;
+  color: rgb(77, 47, 47);
+  text-align: center;
+}
+.new-fashion-div2{
+  width: 30%;
+  background-color: #96e43c;
+  clip-path: polygon(100% 0, 100% 100%, 0 100%, 20% 0%);
+}
+.listitem1,
+.listitem2 {
+  text-decoration: none;
+  list-style: none;
+  align-items: center;
+  padding-left: 3rem;
+  text-align: center;
+
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.listitem1:hover {
+  color: red;
+}
 .img-logo {
   width: 4rem;
   object-fit: cover;
@@ -80,7 +128,7 @@ code {
   padding: 2rem;
 }
 
-.livefor {
+.livefor-text {
   /* text-align: center; */
   font-weight: 200;
   font-size: 8.5rem;
@@ -88,7 +136,7 @@ code {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.fashion {
+.fashion-text {
   color: #fff;
   font-weight: 800;
   font-size: 10.5rem;
@@ -96,7 +144,7 @@ code {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.saveupto {
+.saveupto-text {
   font-size: 2rem;
   color: aliceblue;
   font-weight: 400;
@@ -119,12 +167,6 @@ code {
 
 .img-div {
   width: 50%;
-}
-
-.detail {
-  padding-left: 6rem;
-  padding-top: 3rem;
-  /* margin-top: 1rem; */
 }
 
 .back-img {
@@ -211,9 +253,9 @@ code {
 }
 
 .back-img-card1 {
-  background-image: url("/public/fashion9.webp");
+  background-image: url("/public/ladyfashion23.jpeg");
   background-repeat: no-repeat;
-  /* background-position: center; */
+  background-position: center;
   background-size: 100%;
   width: 100% !important;
   object-fit: cover;
@@ -221,9 +263,9 @@ code {
 }
 
 .back-img-card2 {
-  background-image: url("/public/fashion10.jpeg");
+  background-image: url("/public/ladyfashion24.jpeg");
   background-repeat: no-repeat;
-  /* background-position: center; */
+  background-position: center;
   background-size: 100%;
   width: 100% !important;
   object-fit: cover;
@@ -281,14 +323,13 @@ code {
 }
 
 .back-img-card8 {
-  background-image: url("/public/fashion1.webp");
+  background-image: url("/public/ladyfashon25.jpeg");
   background-repeat: no-repeat;
-  /* background-position: center; */
+  background-position: center;
   background-size: 100%;
   width: 100% !important;
   object-fit: cover;
   height: 100%;
-
 }
 
 .tshirt-colloction {
@@ -352,15 +393,59 @@ code {
 
 .pera-section {
   width: 100%;
-  margin-top: .5rem;
-
+  margin-top: 0.5rem;
 }
-
+.latest-blog-img {
+  width: 100%;
+  height: auto;
+}
+.latest-blog-img2 {
+  width: 26.5rem;
+}
+.hot-product-card2 {
+  /* width: 15rem; */
+  border: none;
+  padding: 0rem;
+}
+.hot-product-card1 {
+  width: 15rem;
+  border: none;
+  min-width: 280px;
+  /* max-width: 1200px; */
+  margin: 3rem;
+  margin-top: 3.5rem;
+  /* gap: 2rem; */
+  padding: 0rem;
+  /* gap: 6rem; */
+}
+.latest-blog-pera {
+  font-weight: 400;
+  color: red;
+}
+.latest-blog-heading {
+  font-weight: 600;
+}
+.latest-blog-pera2 {
+  font-weight: 400;
+  color: rgba(176, 174, 170, 0.837);
+}
+.read-more-button {
+  width: auto;
+  border: 1px solid black;
+  text-align: center;
+  font-weight: 400;
+}
+.read-more-button:hover {
+  background-color: blueviolet;
+}
 
 .hot-ptoduct-item {
   text-align: center;
 }
 
+.all-div-margn {
+  margin-top: 1rem;
+}
 .dress-name {
   text-align: center;
 }
@@ -379,8 +464,6 @@ code {
   width: auto;
   /* background-color: cadetblue; */
 }
-
-
 
 header {
   height: 7rem;
@@ -417,13 +500,20 @@ header {
 .list-hot-product {
   list-style: none;
 }
+.main-all-div {
+  gap: 2rem;
+}
 
 .hot-product-card {
-  width: 10rem;
-  height: 10rem;
-  /* min-width: 280px; */
-  max-width: 1200px;
+  /* width: 15rem; */
+  border: none;
+  box-shadow: 7px 9px 10px 0 rgb(238, 209, 209);
+  height: 20rem;
+  min-width: 180px;
+  /* max-width: 1800px; */
   margin: 3rem;
+  margin-top: 3.5rem;
+  /* gap: 2rem; */
   padding: 0rem;
   /* gap: 6rem; */
 }

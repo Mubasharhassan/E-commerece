@@ -8,20 +8,25 @@ import EightCards from "./Components/EightCards";
 import TodayDeal from "./Components/TodayDeal";
 import TshirtCollection from "./Components/TshirtCollection";
 import HotalVeiw from "./Components/HotalVeiw";
+import LatestBlog from "./Components/LatestBlog";
+import FollowUsInsta from "./Components/FollowUsInsta";
+import NewFashion from "./Components/NewFashion";
 
 function App() {
   return (
     <>
       <div>
-        {/* <Header /> */}
-        {/* <Navbar /> */}
-        {/* <HeroPage /> */}
+        <Header />
+        <Navbar />
+        <HeroPage />
         {/* <FashionProduct /> */}
-        {/* <EightCards /> */}
+        <EightCards />
         {/* <TshirtCollection /> */}
-        {/* <TodayDeal /> */}
         <HotalVeiw />
-
+        <TodayDeal />
+        <NewFashion />
+        <LatestBlog />
+        <FollowUsInsta />
       </div>
     </>
   );

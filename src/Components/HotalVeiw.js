@@ -3,7 +3,7 @@ import React from 'react'
 const HotalVeiw = () => {
     return (
         <>
-            <div className="container container1-section">
+            <div className="container container1-section all-div-margn">
                 <header className="header">
                     <img src="/icons8-alertus-50.png" alt="trilo logo" className="logo" />
                     <form action="#" className="search">

@@ -4,7 +4,7 @@ import { CardText, Card, CardTitle, Button } from "reactstrap";
 const FashionProduct = () => {
   return (
     <>
-      <div className="container-fluid">
+      <div className="container-fluid all-div-margn">
         <div class="d-flex align-items-center main-cards-detail">
           <div className="children-div">
             <div className="cards-body">

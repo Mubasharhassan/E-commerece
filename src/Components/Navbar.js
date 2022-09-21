@@ -7,7 +7,7 @@ import { GiHamburgerMenu } from "react-icons/gi";
 const Navbar = () => {
   return (
     <>
-      <div className="container-fluid">
+      <div className="container-fluid main-cards-detail justify-content-center align-items-center all-div-margn">
         <header class="header">
           <img src="/logo.jpeg" alt="trilo logo" class="logo" />
           <form action="#" class="search">

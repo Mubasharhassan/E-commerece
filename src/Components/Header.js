@@ -6,9 +6,9 @@ import { BsFillPersonFill } from "react-icons/bs";
 const Header = () => {
   return (
     <>
-      <div className="container-fluid header-main">
+      <div className="container-fluid header-main all-div-margn">
         <div className="container ">
-          <div className=" header-div flex-wrap-wrap d-flex justify-content-between align-items-center mt-3 ml-4 mr-4">
+          <div className=" header-div main-cards-detail d-flex justify-content-between align-items-center mt-3 ml-4 mr-4">
             <div className="header-right">
               <p className="collection">
                 Special collection already available.
